@@ -34,7 +34,8 @@ FILE_FORMAT_DICT = {
         "shtml": "html",
         "htm": "html",
         "py": "python",
-        "pdf": "pdf"
+        "pdf": "pdf",
+        "docx" : "docx"
     }
 
 RETRY_COUNT = 5
