@@ -585,7 +585,7 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Unterhaltung starten</h1>
+                                <h1 className={styles.chatEmptyStateTitle}>Frag den SPG Bot</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>Gerne versuche ich deine Frage zu beantworten</h2>
                             </Stack>
                         ) : (
