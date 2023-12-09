@@ -92,7 +92,7 @@ export const Answer = ({
                     </Stack.Item>
                 )}
                 <Stack.Item className={styles.answerDisclaimerContainer}>
-                    <span className={styles.answerDisclaimer}>AI-generated content may be incorrect</span>
+                    <span className={styles.answerDisclaimer}>Hinweis: Dieser Text wird zwar durch eine KI generiert, die Quellen der Informationen sind jedoch aus Dokumenten der SPG</span>
                 </Stack.Item>
                 </Stack>
                 {chevronIsExpanded && 
