@@ -36,9 +36,9 @@ export function ChatHistoryPanel(props: ChatHistoryPanelProps) {
 
     const clearAllDialogContentProps = {
         type: DialogType.close,
-        title: !clearingError? 'Are you sure you want to clear all chat history?' : 'Error deleting all of chat history',
+        title: !clearingError? 'Löschen?' : 'Error deleting all of chat history',
         closeButtonAriaLabel: 'Close',
-        subText: !clearingError ? 'All chat history will be permanently removed.' : 'Please try again. If the problem persists, please contact the site administrator.',
+        subText: !clearingError ? 'Der komplette Chat-Verlauf wird gelöscht' : 'Please try again. If the problem persists, please contact the site administrator.',
     };
     
     const modalProps = {
@@ -94,7 +94,7 @@ export function ChatHistoryPanel(props: ChatHistoryPanelProps) {
                     <Stack horizontal styles={commandBarButtonStyle}>
                         <CommandBarButton
                             iconProps={{ iconName: 'More' }}
-                            title={"Clear all chat history"}
+                            title={"Chat-Verlauf löschen"}
                             onClick={onShowContextualMenu}
                             aria-label={"clear all chat history"}
                             styles={commandBarStyle}
