@@ -113,7 +113,7 @@ export const ChatHistoryListItemCell: React.FC<ChatHistoryListItemCellProps> = (
             return;
         }
         if(editTitle == item.title){
-            setErrorRename("Error: Enter a new title to proceed.")
+            setErrorRename("Fehler: Wähle eine neue Bezeichnung")
             setTimeout(() => {
                 setErrorRename(undefined);
                 setTextFieldFocused(true);
