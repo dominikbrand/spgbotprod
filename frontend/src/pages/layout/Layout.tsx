@@ -84,7 +84,7 @@ const Layout = () => {
                     </Stack>
                     <Stack horizontal tokens={{ childrenGap: 4 }}>
                             {(appStateContext?.state.isCosmosDBAvailable?.status !== CosmosDBStatus.NotConfigured) && 
-                                <HistoryButton onClick={handleHistoryClick} text={appStateContext?.state?.isChatHistoryOpen ? "Chat Verlauf ausblenden" : "Chat Verlauf anzeigen"}/>    
+                                <HistoryButton onClick={handleHistoryClick} text={appStateContext?.state?.isChatHistoryOpen ? "Verlauf ausblenden" : "Verlauf anzeigen"}/>    
                             }
                             <ShareButton onClick={handleShareClick} />
                     </Stack>
