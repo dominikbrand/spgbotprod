@@ -51,9 +51,9 @@ export const ChatHistoryListItemCell: React.FC<ChatHistoryListItemCellProps> = (
     const isSelected = item?.id === appStateContext?.state.currentChat?.id;
     const dialogContentProps = {
         type: DialogType.close,
-        title: 'Are you sure you want to delete this item?',
+        title: 'Löschen?',
         closeButtonAriaLabel: 'Close',
-        subText: 'The history of this chat session will permanently removed.',
+        subText: 'Soll der Eintrag wirklich gelöscht werden?',
     };
 
     const modalProps = {
