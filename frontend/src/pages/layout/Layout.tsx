@@ -86,7 +86,7 @@ const Layout = () => {
                             {(appStateContext?.state.isCosmosDBAvailable?.status !== CosmosDBStatus.NotConfigured) && 
                                 <HistoryButton onClick={handleHistoryClick} text={appStateContext?.state?.isChatHistoryOpen ? "Verlauf ausblenden" : "Verlauf anzeigen"}/>    
                             }
-                            <ShareButton onClick={handleShareClick} />
+                        
                     </Stack>
 
                 </Stack>
