@@ -543,6 +543,18 @@ const Chat = () => {
         }
     };
 
+<span 
+        title={activeCitation.url} 
+        tabIndex={0} 
+        role="link" 
+        onClick={() => onViewSource(activeCitation)} 
+        onKeyDown={e => e.key === "Enter" || e.key === " " ? onViewSource(activeCitation) : null}
+        className={styles.viewSourceButton}
+        aria-label={activeCitation.url}
+    >
+        View Source
+</span>
+
     const parseCitationFromMessage = (message: ChatMessage) => {
         if (message?.role && message?.role === "tool") {
             try {
