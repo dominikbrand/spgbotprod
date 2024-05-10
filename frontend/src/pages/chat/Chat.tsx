@@ -708,7 +708,7 @@ const Chat = () => {
                             </Stack>
                             <QuestionInput
                                 clearOnSend
-                                placeholder="Stelle deine Frage (z.B. wie muss eine Blasendruckmessung durchgeführt werden?)"
+                                placeholder="Stelle deine Frage - möglichst in ganzen Sätzen"
                                 disabled={isLoading}
                                 onSend={(question, id) => {
                                     appStateContext?.state.isCosmosDBAvailable?.cosmosDB ? makeApiRequestWithCosmosDB(question, id) : makeApiRequestWithoutCosmosDB(question, id)
