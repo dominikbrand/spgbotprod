@@ -598,7 +598,7 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Frag den SPG Bot</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>Gerne versuche ich deine Frage zu beantworten</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>Gerne versuche ich deine Frage zu beantworten <br> Brauchst du Hilfe? <a href="https://paraplegiech.sharepoint.com/sites/intra-knowledgebase-de/SitePages/SPGBotPrompting.aspx" target="_blank">Klick hier</a></h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
