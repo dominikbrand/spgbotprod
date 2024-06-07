@@ -92,7 +92,7 @@ export const Answer = ({
                     </Stack.Item>
                 )}
                 <Stack.Item className={styles.answerDisclaimerContainer}>
-                    <span className={styles.answerDisclaimer}>Basierend auf QMS/Intranet ist die Antwort KI generiert.</span>
+                    <span className={styles.answerDisclaimer}>Basierend auf QMS/Intranet ist die Antwort KI generiert. <br> Hinterfrage die Antworten sorgfältig - du bleibst in der Verantwortung!</span>
                 </Stack.Item>
                 </Stack>
                 {chevronIsExpanded && 
